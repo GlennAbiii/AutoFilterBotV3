@@ -118,6 +118,7 @@ async def start(bot, message):
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
+                InlineKeyboardButton("Discussion Group', url='https://telegram.me/TamilMV_Collections'),
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
             )
